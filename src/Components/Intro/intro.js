@@ -8,7 +8,7 @@ export default function Intro() {
     <section id="intro">
       <div className="introcont">
         <span className="hello">Hello,</span>
-        <span className="introtxt">I'm <span className='introname'>Karthik J</span><br />, A Full Stack Software Developer, and this is my portfolio....</span>
+        <span className="introtxt">I'm <span className='introname'>Karthik J,</span><br />A Full Stack Software Developer, and this is my portfolio.</span>
       </div>
       <img src={mypic} alt="Profile" className="bg" />
     </section>
