@@ -11,13 +11,13 @@ export default function Experience() {
         <section id="experience">
 
             <div className="container">
-
+                <span className='skilltitle2'>Experience</span>
                 <div className='skillbars2'>
                     <div className="skillbars">
                         <div className="conts2">
                             <img src={forcececloud} alt="" className='complogo' />
                             <div className='skillbartxt2'>
-                                <h2>Salesforce Developer, 4CE Cloud Labs, Bangaluru Nov 2023 – July 2024</h2><br />
+                                <h2>Salesforce Developer, 4CE Cloud Labs, Bangalore Nov 2023 – July 2024</h2><br />
                                 <b className='bold'>o Build several reusable LWC component templates for a Mobile Banking Application Project - </b>I facilitated the
                                 team's introduction and developed a range of reusable Lightning Web Components (LWC) templates and UI
                                 elements. These components possess dynamic and configurable properties, significantly diminishing code
