@@ -12,6 +12,18 @@
     flex-wrap: wrap;
 }
 
+.resumelink {
+    font-size: 15px;
+}
+
+.download-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 5px;
+    margin-top: 25px;
+}
+
 .bg {
     filter: brightness(45%);
     filter: contrast(135%);
