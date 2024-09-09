@@ -4,8 +4,6 @@ import instalogo from "../../assets/instagram.png"
 import linkedinlogo from "../../assets/linkedin.png"
 import twitetrlogo from "../../assets/twitter.png"
 import React from 'react'
-import useWindowSize from 'react-use/lib/useWindowSize'
-import Confetti from 'react-confetti'
 import emailjs from '@emailjs/browser';
 import resume from "./../../assets/files/resume_karthikrdy150502.pdf";
 import { Download } from "lucide-react"
@@ -21,9 +19,7 @@ const contactForm = z.object({
 
 export default function Contact() {
   const form = useRef();
-  const [submitted, setSubmitted] = useState(false)
   const [validationError, setValidationErrors] = useState({})
-  const { width, height } = useWindowSize()
   const sendEmail = (e) => {
     e.preventDefault();
     setValidationErrors({});
@@ -58,6 +54,8 @@ export default function Contact() {
       });
 
   };
+
+
   return (
     <section id="contactpage">
       <div id="contactsec">
@@ -76,10 +74,7 @@ export default function Contact() {
           {
             validationError?.message && <small className="inputfielddesc">&#9872; {validationError?.message}</small>
           }
-          <button type="submit" className="submitbtn" onSubmit={() => initiateConfetti()} value="send">Submit</button>
-          {
-            submitted && <Confetti width={width} height={height} />
-          }
+          <button type="submit" className="submitbtn" value="send">Submit</button>
         </form>
 
 
