@@ -1,0 +1,13 @@
+
+
+.footer{
+    text-align: center;
+    font-weight: 700;
+    font-size: small;
+    height: 2rem;
+    display: flex;
+    margin-top: 5rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+}

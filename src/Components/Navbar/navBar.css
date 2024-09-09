@@ -1,0 +1,106 @@
+.navbar {
+    /* background-color: rgba(255, 255, 255, 0.463); */
+    background-color: white;
+    height: 5rem;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    border-radius: 0.5rem;
+    padding: 1rem 2rem 1rem 0rem;
+}
+
+
+.logo {
+    height: 3rem;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+
+.desktopmenulistitem {
+    font-weight: bolder;
+    margin: 2rem;
+    cursor: pointer;
+}
+
+
+.desktopmenubtn {
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+    border: none;
+    width: 6rem;
+    height: 2rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+
+.desktopmenulistitem:hover {
+    border-bottom: 2px solid black;
+    padding-bottom: 0.5rem;
+}
+
+
+.active {
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+.navmenu {
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 15rem;
+    border-radius: 1rem;
+    background-color: rgb(209 234 255 / 89%);
+}
+
+.mobmenu {
+    display: none;
+    object-fit: cover;
+    height: 2rem;
+    width: 2rem;
+}
+
+.listitem {
+    cursor: pointer;
+    font-weight: 700;
+    color: black;
+    margin: 0.25rem;
+    /* width: fit-content; */
+    padding: 0.5rem 3rem;
+    /* background-color: ; */
+}
+
+.listitem:hover {
+    border-bottom: 2px solid black;
+    padding-bottom: 0.5rem;
+}
+
+
+@media screen and (max-width:670px) {
+    .mobmenu {
+        display: flex;
+    }
+
+    .desktopmenu {
+        display: none;
+    }
+
+    .desktopmenubtn {
+        display: none;
+    }
+}

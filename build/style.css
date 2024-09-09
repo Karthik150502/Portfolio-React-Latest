@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+    font-family: 'Cinzel', serif;
+    font-family: 'M PLUS 1p', sans-serif;
+    user-select: none;
+}
+
+body{
+    background:rgb(255, 255, 255);
+    color:black;
+    overflow: hidden;
+    overflow-y: scroll;
+}

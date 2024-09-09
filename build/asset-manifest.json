@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fca7f3a0.css",
+    "main.js": "/static/js/main.b68d7146.js",
+    "static/media/gamesite.png": "/static/media/gamesite.2120220d128efbd8c020.png",
+    "static/media/loginproj.png": "/static/media/loginproj.e0ea8779b7d683782330.png",
+    "static/media/instagram.png": "/static/media/instagram.eded20535e16908cea34.png",
+    "static/media/djangoportfolio.png": "/static/media/djangoportfolio.e298d10f6ecea52fb756.png",
+    "static/media/myimage.png": "/static/media/myimage.8c5f9ef7dea0a3554320.png",
+    "static/media/django-twitter-clone.png": "/static/media/django-twitter-clone.6afec54b2f223740fd06.png",
+    "static/media/Djangocrm.png": "/static/media/Djangocrm.b1ec7341cd2753748f69.png",
+    "static/media/backend.png": "/static/media/backend.25f6d52d7c6eafb18eb9.png",
+    "static/media/database.png": "/static/media/database.5a4ce2448c1758a236d1.png",
+    "static/media/webdesign.png": "/static/media/webdesign.7946ef16f7ca7b8e8d9c.png",
+    "static/media/coding.png": "/static/media/coding.747c520193fa94f616d7.png",
+    "static/media/loading_animation2.png": "/static/media/loading_animation2.39b6ffbd4dd9407c5c1c.png",
+    "static/media/logo-black-removebg-black.png": "/static/media/logo-black-removebg-black.53e581e488e21c897cda.png",
+    "static/media/twitter.png": "/static/media/twitter.3a655e8ba8a9efd824c5.png",
+    "index.html": "/index.html",
+    "main.fca7f3a0.css.map": "/static/css/main.fca7f3a0.css.map",
+    "main.b68d7146.js.map": "/static/js/main.b68d7146.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fca7f3a0.css",
+    "static/js/main.b68d7146.js"
+  ]
+}

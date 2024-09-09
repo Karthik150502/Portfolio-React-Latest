@@ -1,0 +1,103 @@
+#skills {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.skilltitle {
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.skilldesc {
+    font-weight: 600;
+    font-size: 0.85rem;
+    max-width: 65rem;
+    padding: 0 2rem;
+}
+
+.skillbars {
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+
+}
+
+.skillbar {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+
+}
+
+.conts {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    width: 100%;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+}
+
+.logos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    column-gap: 10px;
+}
+
+
+.conts img {
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 2rem;
+}
+
+
+
+.logo {
+    object-fit: contain;
+}
+
+
+
+
+@media screen and (max-width:480px) {
+    .skillbartxt>p {
+        font-size: 3vw;
+    }
+
+    .conts img {
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+
+    .logo {
+        object-fit: contain;
+    }
+    
+
+    .skillbartxt>h2 {
+        font-size: 5vw;
+    }
+}
