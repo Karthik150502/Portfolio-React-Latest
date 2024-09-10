@@ -5,7 +5,6 @@ import linkedinlogo from "../../assets/linkedin.png"
 import twitetrlogo from "../../assets/twitter.png"
 import React from 'react'
 import emailjs from '@emailjs/browser';
-import resume from "./../../assets/files/resume_karthikrdy150502.pdf";
 import { Download } from "lucide-react"
 import { z } from "zod";
 
@@ -91,10 +90,7 @@ export default function Contact() {
             <img src={twitetrlogo} alt="Twitter" className="link" />
           </a>
         </div>
-        <span className='download-link'>
-          <Download strokeWidth={2} size={15} />
-          <a href={resume} download className='resumelink'>Download my Resume</a>
-        </span>
+
       </div>
     </section>
   )
