@@ -57,7 +57,7 @@ export default function works() {
                                     <p class="card_text">A in-momory stored HD Crypto wallet for Solana.</p>
                                     <div className="btns">
                                         <a href="https://github.com/Karthik150502/Crypto-Wallet-Bango" rel="noreferrer" target="_blank" class="btn card_btn">Source</a>
-                                        <a href="cryptoWallet" rel="noreferrer" target="_blank" class="btn card_btn">Demo</a>
+                                        <a href="https://crypto-wallet-bango.vercel.app/" rel="noreferrer" target="_blank" class="btn card_btn">Demo</a>
                                     </div>
                                 </div>
                             </div>
