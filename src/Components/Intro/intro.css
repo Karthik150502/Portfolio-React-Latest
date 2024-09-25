@@ -47,8 +47,7 @@
 }
 
 .introname {
-    background-image:
-        linear-gradient(90deg, black, aqua);
+    background-image: linear-gradient(90deg, black, aqua);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -83,9 +82,7 @@
     .bg {
         right: -30vw;
         display: none;
-
     }
-
 
     .introcont {
         position: relative;
@@ -98,17 +95,13 @@
         font-weight: 600;
     }
 
-
     .introtxt {
         font-size: 1.75rem;
     }
 
-
     .intropara {
         font-size: small;
     }
-
-
 
 }
 

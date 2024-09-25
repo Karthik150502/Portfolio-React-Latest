@@ -1,13 +1,13 @@
 import "./works.css"
-import djangoportfolio from "../../assets/djangoportfolio.png"
-import djangocrm from "../../assets/Djangocrm.png"
+import djangoportfolio from "../../assets/djangoportfolio.png";
+import djangocrm from "../../assets/Djangocrm.png";
 import djangotwitterclone from "../../assets/django-twitter-clone.png"
-import loadingani from "../../assets/loading_animation2.png"
-import gamesite from "../../assets/gamesite.png"
-import mernBookstore from "../../assets/mern-bookstore.png"
+import loadingani from "../../assets/loading_animation2.png";
+import gamesite from "../../assets/gamesite.png";
+import mernBookstore from "../../assets/mern-bookstore.png";
 import aipdfchatting from "./../../assets/Screenshot 2024-09-04 135043.png"
-import financetracking from "./../../assets/Screenshot 2024-07-26 115304.png"
-import cryptoWallet from "./../../assets/Screenshot 2024-09-15 091146.png"
+import financetracking from "./../../assets/Screenshot 2024-07-26 115304.png";
+import cryptoWallet from "./../../assets/Screenshot 2024-09-15 091146.png";
 
 
 
@@ -33,6 +33,7 @@ export default function works() {
                                     <p class="card_text">An AI SaaS application that allows users to study any PDF document by simply asking questions about its content.</p>
                                     <div className="btns">
                                         <a href="https://github.com/Karthik150502/AI_PDF_Saas" rel="noreferrer" target="_blank" class="btn card_btn">Source</a>
+                                        <a href="https://docai-pdf-chatting.vercel.app/" rel="noreferrer" target="_blank" class="btn card_btn">Demo</a>
                                     </div>
                                 </div>
                             </div>
