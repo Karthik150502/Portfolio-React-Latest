@@ -33,7 +33,7 @@ export default function works() {
                                     <p class="card_text">An AI SaaS application that allows users to study any PDF document by simply asking questions about its content.</p>
                                     <div className="btns">
                                         <a href="https://github.com/Karthik150502/AI_PDF_Saas" rel="noreferrer" target="_blank" class="btn card_btn">Source</a>
-                                        <a href="https://docai-pdf-chatting.vercel.app/" rel="noreferrer" target="_blank" class="btn card_btn">Demo</a>
+                                        <a href="https://docai-ai-pdf-saas.vercel.app/" rel="noreferrer" target="_blank" class="btn card_btn">Demo</a>
                                     </div>
                                 </div>
                             </div>
