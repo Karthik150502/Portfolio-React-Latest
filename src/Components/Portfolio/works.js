@@ -1,10 +1,6 @@
 import "./works.css"
-import djangoportfolio from "../../assets/djangoportfolio.png";
-import djangocrm from "../../assets/Djangocrm.png";
-import djangotwitterclone from "../../assets/django-twitter-clone.png"
-import loadingani from "../../assets/loading_animation2.png";
-import gamesite from "../../assets/gamesite.png";
-import mernBookstore from "../../assets/mern-bookstore.png";
+
+import doorbin_video from "../../assets/Screenshot 2024-09-27 213437.png"
 import aipdfchatting from "./../../assets/Screenshot 2024-09-04 135043.png"
 import financetracking from "./../../assets/Screenshot 2024-07-26 115304.png";
 import cryptoWallet from "./../../assets/Screenshot 2024-09-15 091146.png";
@@ -26,7 +22,7 @@ export default function works() {
                         <li class="cards_item">
                             <div class="card">
                                 <div class="card_image">
-                                    <img src={aipdfchatting} alt="Ai PDF Chatting" />
+                                    <img src={aipdfchatting} alt="AI Enabled PDF Chatting" />
                                 </div>
                                 <div class="card_content">
                                     <h2 class="card_title">AI SAAS – Chat with PDF </h2>
@@ -40,7 +36,7 @@ export default function works() {
                         </li>
                         <li class="cards_item">
                             <div class="card">
-                                <div class="card_image"><img src={financetracking} /></div>
+                                <div class="card_image"><img src={financetracking} alt="Finacle Finance" /></div>
                                 <div class="card_content">
                                     <h2 class="card_title">AI Finance and Income Tracking Application</h2>
                                     <p class="card_text">AI powered personal finance tracking application to track expenses. </p>
@@ -52,9 +48,9 @@ export default function works() {
                         </li>
                         <li class="cards_item">
                             <div class="card">
-                                <div class="card_image"><img src={cryptoWallet} /></div>
+                                <div class="card_image"><img src={cryptoWallet} alt="Bango - HD Crypto Wallet" /></div>
                                 <div class="card_content">
-                                    <h2 class="card_title">Crypto Wallet</h2>
+                                    <h2 class="card_title">Bango - Crypto Wallet</h2>
                                     <p class="card_text">A in-momory stored HD Crypto wallet for Solana.</p>
                                     <div className="btns">
                                         <a href="https://github.com/Karthik150502/Crypto-Wallet-Bango" rel="noreferrer" target="_blank" class="btn card_btn">Source</a>
@@ -67,10 +63,12 @@ export default function works() {
 
                         <li class="cards_item">
                             <div class="card">
-                                <div class="card_image"><img src={djangotwitterclone} /></div>
+                                <div class="card_image"><img src={doorbin_video} alt="Doorbin Video Conferencing" /></div>
                                 <div class="card_content">
-                                    <h2 class="card_title">Django - Twitter Clone</h2>
-                                    <p class="card_text">An adaptation of twitter, called Junes. Built using Django.</p>
+                                    <h2 class="card_title">Doorbin - Video Conferencing</h2>
+                                    <p class="card_text">A Video COnferencing Application, used the Stream Video Calling SDK.</p>
+                                    <a href="https://github.com/Karthik150502/Next-Video-Conferencing" rel="noreferrer" target="_blank" class="btn card_btn">Source</a>
+                                    <a href="https://doorbin-video-conferencing.vercel.app/" rel="noreferrer" target="_blank" class="btn card_btn">Demo</a>
                                 </div>
                             </div>
                         </li>
