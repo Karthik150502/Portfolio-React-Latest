@@ -67,14 +67,13 @@ export default function works() {
                                 <div class="card_content">
                                     <h2 class="card_title">Doorbin - Video Conferencing</h2>
                                     <p class="card_text">A Video COnferencing Application, used the Stream Video Calling SDK.</p>
+                                </div>
+                                <div className="btns">
                                     <a href="https://github.com/Karthik150502/Next-Video-Conferencing" rel="noreferrer" target="_blank" class="btn card_btn">Source</a>
                                     <a href="https://doorbin-video-conferencing.vercel.app/" rel="noreferrer" target="_blank" class="btn card_btn">Demo</a>
                                 </div>
                             </div>
                         </li>
-
-
-
                     </ul>
                 </div>
             </div>
