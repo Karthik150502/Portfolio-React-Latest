@@ -43,7 +43,7 @@ export default function Contact() {
       return
     }
 
-    emailjs.sendForm('service_a3itycn', 'template_xqdgla6', form.current, 'BNhQsrh8j37XyT853')
+    emailjs.sendForm('service_a3itycn', 'template_xqdgla6', form.current, '8NA342aS7wKjjdhLQ')
       .then((result) => {
         console.log(result.text);
         e.target.reset()
