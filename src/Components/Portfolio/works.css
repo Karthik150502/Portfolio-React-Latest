@@ -81,7 +81,7 @@ img {
   list-style: none;
   flex-direction: row;
   margin: 0;
-  padding: 0;
+  padding: 15px 0;
   align-items: flex-start;
   ;
 }
