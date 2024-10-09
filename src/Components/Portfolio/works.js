@@ -4,7 +4,7 @@ import doorbin_video from "../../assets/Screenshot 2024-09-27 213437.png"
 import aipdfchatting from "./../../assets/Screenshot 2024-09-04 135043.png"
 import financetracking from "./../../assets/Screenshot 2024-07-26 115304.png";
 import cryptoWallet from "./../../assets/Screenshot 2024-09-15 091146.png";
-
+import docaiSaasLandingPageVideo from "./../../assets/Videos/Recording 2024-10-09 213039.mp4"
 
 
 
@@ -48,6 +48,7 @@ export default function works() {
                             </div>
                         </li>
 
+
                         <li class="cards_item">
                             <div class="card">
                                 <div class="card_image"><img src={cryptoWallet} alt="Bango - HD Crypto Wallet" /></div>
@@ -63,17 +64,22 @@ export default function works() {
                         </li>
                         <li class="cards_item">
                             <div class="card">
-                                <div class="card_image"><img src={financetracking} alt="Finacle Finance" /></div>
+                                <div class="card_image">
+
+                                    <video width="500" height="275" controls >
+                                        <source src={docaiSaasLandingPageVideo} type="video/mp4" />
+                                    </video>
+                                </div>
                                 <div class="card_content">
-                                    <h2 class="card_title">AI Finance and Income Tracking Application</h2>
-                                    <p class="card_text">AI powered personal finance tracking application to track expenses. </p>
+                                    <h2 class="card_title">SaaS Landing</h2>
+                                    <p class="card_text">A modern AI Saas landing page, built using some modern frontend tools, like framer-motion, etc.,</p>
                                     <div class="btns">
-                                        <a href="https://github.com/Karthik150502/AI-Finance-Tracker-" rel="noreferrer" target="_blank" class="btn card_btn">Source</a>
+                                        <a href="https://github.com/Karthik150502/Stunning-Landing-Page" rel="noreferrer" target="_blank" class="btn card_btn">Source</a>
+                                        <a href="https://docai-landing-page.vercel.app/" rel="noreferrer" target="_blank" class="btn card_btn">Demo</a>
                                     </div>
                                 </div>
                             </div>
                         </li>
-
 
                     </ul>
                 </div>
