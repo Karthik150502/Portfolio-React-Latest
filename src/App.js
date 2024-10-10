@@ -11,7 +11,7 @@ import { ThemeProvider, createTheme } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 
 const mainStyle = {
-  height: "auto"
+  height: "auto",
 }
 
 
@@ -26,7 +26,12 @@ export default function App() {
 
 
   return (
-    <div style={mainStyle}>
+    <div style={{
+      ...mainStyle,
+      position:"relative",
+      overflow:"hidden",
+      minHeight:"100vh"
+    }}>
 
       <Navbar />
       <Intro />

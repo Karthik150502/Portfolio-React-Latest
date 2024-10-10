@@ -27,6 +27,15 @@ body {
   justify-content: center;
 }
 
+.main {
+
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 
 
 h1 {
@@ -77,13 +86,11 @@ img {
 
 .cards {
   display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  flex-direction: row;
-  margin: 0;
-  padding: 15px 0;
+  overflow: hidden;
+  margin-top: 25px;
+  mask-image: linear-gradient(to right, transparent, white 20%, white 80%, transparent);
+  justify-content: flex-start;
   align-items: flex-start;
-  ;
 }
 
 .cards_item {
@@ -93,8 +100,17 @@ img {
   overflow: hidden;
   padding: 1rem;
   color: black;
+  width: 550px;
+  height: 600px;
+}
 
-
+.scroll-container {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+  flex: none;
+  padding-right: 1.25rem;
+  width: 100%;
 }
 
 @media (min-width: 40rem) {
