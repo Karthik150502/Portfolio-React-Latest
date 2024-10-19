@@ -52,7 +52,7 @@ const PORTFOLIO = [
 
 export default function Works() {
 
-    const [stopSlide, setStopSlide] = useState(false);
+
 
 
     return (
@@ -62,29 +62,17 @@ export default function Works() {
             <div className="container">
                 <h2 className='text-5xl md:text-6xl font-bold text-center tracking-tighter'>Some latest projects</h2>
                 <p className='text-black/70 text-center text-lg md:text-xl max-w-sm mx-auto tracking-tight mt-3 font-bold'>Here are some of my works</p>
-                <div className='overflow-hidden mt-10 [mask-image:linear-gradient(to_right,transparent,black_20%,black_80%,transparent)] pb-16 pt-2 cursor-crosshair' onMouseEnter={() => {
-                    setStopSlide(true);
-                }}
-                    onMouseDown={() => {
-                        setStopSlide(true);
-                    }}
-
-                    onMouseUp={() => {
-                        setStopSlide(false);
-                    }}
-                    onMouseLeave={() => {
-                        setStopSlide(false);
-                    }}
+                <div className='overflow-hidden mt-10 [mask-image:linear-gradient(to_right,transparent,black_20%,black_80%,transparent)] pb-16 pt-2 cursor-crosshair' 
                 >
                     <motion.div
 
-                        initial={stopSlide ? {} : {
+                        initial={{
                             translateX: "-50%"
                         }}
-                        animate={stopSlide ? {} : {
+                        animate={{
                             translateX: "0",
                         }}
-                        transition={stopSlide ? {} : {
+                        transition={{
                             repeat: Infinity,
                             duration: 25,
                             ease: "linear",

@@ -15,7 +15,7 @@ export default function ProjectCard({ item }) {
                 }
 
             </div>
-            <div class="image h-[225px] w-full bg-gradient-to-bl from-[#033b55] via-teal-600">
+            <div class="image h-[225px] w-full bg-gradient-to-bl from-[#033b55] via-teal-600 to-blue-950">
                 <div className="content w-full h-[150px] flex items-start justify-start gap-[5px] flex-col px-[10px] py-[15px]">
                     <p className='text-white text-[25px] font-bold'>
                         {item.title}
