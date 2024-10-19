@@ -27,7 +27,7 @@ export default function Navbar() {
                                 </Link>
                         </div>
 
-                        <button className="desktopmenubtn" onClick={() => {
+                        <button className="bg-black py-2 px-4 font-bold text-white rounded-full hover:bg-black/80 transition-colors duration-300" onClick={() => {
                                 document.getElementById('contactpage').scrollIntoView({ behavior: 'smooth', offset: "100" })
                         }}>
                                 <img src="" className='desktopmenuimg' alt="" />

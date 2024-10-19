@@ -5,7 +5,7 @@ import linkedinlogo from "../../assets/linkedin.png"
 import twitetrlogo from "../../assets/twitter.png"
 import React from 'react'
 import emailjs from '@emailjs/browser';
-import { Download } from "lucide-react"
+import Github from "./../../assets/github.png"
 import { z } from "zod";
 
 
@@ -58,8 +58,8 @@ export default function Contact() {
   return (
     <section id="contactpage">
       <div id="contactsec">
-        <h1 className="contacttitle">Contact</h1>
-        <span className="contactdesc">Kindly fill out the form below to discuss the work oppurtunity!</span>
+        <h2 className='text-5xl md:text-6xl font-bold text-center tracking-tighter'>Contact</h2>
+        <p className='text-black/70 text-center text-lg md:text-xl max-w-sm mx-auto tracking-tight mt-3 font-bold'>Kindly fill out the form below to discuss the work oppurtunity!</p>
         <form action="" className="contactform" ref={form} onSubmit={sendEmail}>
           <input type="text" className="name" placeholder="Your name" name="your_name" />
           {
@@ -73,7 +73,7 @@ export default function Contact() {
           {
             validationError?.message && <small className="inputfielddesc">&#9872; {validationError?.message}</small>
           }
-          <button type="submit" className="submitbtn" value="send">Submit</button>
+          <button type="submit" className="bg-black py-2 px-4 font-bold text-white rounded-full hover:bg-black/80 transition-colors duration-300 my-10" value="send">Submit</button>
         </form>
 
 
@@ -82,9 +82,8 @@ export default function Contact() {
           <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/karthik-j-68a915195/">
             <img src={linkedinlogo} alt="LinkedIN" className="link" />
           </a>
-
-          <a target="_blank" rel="noreferrer" href="https://www.instagram.com/Karthik.150502/">
-            <img src={instalogo} alt="Instagram" className="link" />
+          <a target="_blank" rel="noreferrer" href="https://github.com/Karthik150502">
+            <img src={Github} alt="Github" className="link" />
           </a>
           <a target="_blank" rel="noreferrer" href="https://twitter.com/Karthik72050421">
             <img src={twitetrlogo} alt="Twitter" className="link" />

@@ -19,7 +19,7 @@ import next from "./next.svg"
 export default function skill() {
      return (
           <section id="skills">
-               <span className='skilltitle'>Skills</span>
+               <h2 className='text-5xl md:text-6xl font-bold text-center tracking-tighter'>Skills</h2>
                <div className='skillbars'>
                     <div className="skillbar">
                          <div className="conts">

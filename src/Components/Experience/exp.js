@@ -11,7 +11,7 @@ export default function Experience() {
         <section id="experience">
 
             <div className="container">
-                <span className='skilltitle2'>Experience</span>
+                <h2 className='text-5xl md:text-6xl font-bold text-center tracking-tighter '>Experience</h2>
                 <div className='skillbars2'>
                     <div className="skillbars">
                         <div className="conts2">
