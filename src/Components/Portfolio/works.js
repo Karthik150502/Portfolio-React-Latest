@@ -65,6 +65,13 @@ export default function Works() {
                 <div className='overflow-hidden mt-10 [mask-image:linear-gradient(to_right,transparent,black_20%,black_80%,transparent)] pb-16 pt-2 cursor-crosshair' onMouseEnter={() => {
                     setStopSlide(true);
                 }}
+                    onTouchStart={() => {
+                        setStopSlide(true);
+                    }}
+
+                    onTouchEnd={() => {
+                        setStopSlide(false);
+                    }}
                     onMouseLeave={() => {
                         setStopSlide(false);
                     }}
